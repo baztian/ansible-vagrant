@@ -11,7 +11,6 @@ Role to install vagrant and associated virtualization tools in ubuntu.
       roles:
          - role: baztian.vagrant
 
-License
--------
+## License
 
-GPLv3
+MIT
