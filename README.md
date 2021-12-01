@@ -1,14 +1,13 @@
-Role Name
-=========
+# Ansible role to install vagrant
+
+![CI](https://github.com/baztian/ansible-vagrant/workflows/CI/badge.svg)
 
 Role to install vagrant and associated virtualization tools in ubuntu.
 
-Example Playbook
-----------------
-
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
+## Example Playbook
 
     - hosts: servers
+      become: yes
       roles:
          - role: baztian.vagrant
 
