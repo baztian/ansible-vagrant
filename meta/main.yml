@@ -1,6 +1,6 @@
 galaxy_info:
   author: baztian
-  role: vagrant
+  role_name: vagrant
   description: Role for installing vagrant and associated virtualization tools
   license: MIT
   min_ansible_version: 2.0
